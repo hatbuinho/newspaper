@@ -7,7 +7,7 @@
       font-size: inherit;
       margin: 0;
     }
-    p {
+    span {
       display: inline-block;
       margin: 0;
       padding: 0.2rem 1rem;
@@ -33,7 +33,7 @@
   &--feature {
     .widget {
       &__header {
-        p {
+        span {
           background-color: deep-get($color, bg, feature-header);
           color: deep-get($color, text, feature-header);
         }
@@ -59,7 +59,7 @@
         border-bottom: 2px solid deep-get($color, bg, primary-header);
         
 
-        p {
+        span {
           background-color: deep-get($color, bg, primary-header);
           color: deep-get($color, text, primary-header);
         }

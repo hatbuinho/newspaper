@@ -456,7 +456,7 @@ nav ul#main-menu li:hover a {
   border-bottom: 2px solid #ff2d2d;
 }
 
-.widget--topic .widget__header p {
+.widget--topic .widget__header span {
   background-color: #ff2d2d;
   color: #fcfcfc;
 }
@@ -557,7 +557,7 @@ footer .footer-bottom .copy-right__right a:not(:last-child) {
   margin: 0;
 }
 
-.widget__header p {
+.widget__header span {
   display: inline-block;
   margin: 0;
   padding: 0.2rem 1rem;
@@ -578,7 +578,7 @@ footer .footer-bottom .copy-right__right a:not(:last-child) {
   list-style-type: none;
 }
 
-.widget--feature .widget__header p {
+.widget--feature .widget__header span {
   background-color: #23282d;
   color: #eeeeee;
 }
@@ -599,7 +599,7 @@ footer .footer-bottom .copy-right__right a:not(:last-child) {
   border-bottom: 2px solid #4db2ec;
 }
 
-.widget--primary .widget__header p {
+.widget--primary .widget__header span {
   background-color: #4db2ec;
   color: #fcfcfc;
 }
