@@ -4,11 +4,11 @@
     background-color: deep-get($color, bg, icon);
     width: 35px;
     height: 35px;
-    line-height: 30px;
+    line-height: 35px;
     color: deep-get($color, text, icon);
     text-align: center;
 
-    i{
+    i {
       line-height: inherit;
     }
   }
@@ -18,13 +18,7 @@
 
   &:hover {
     a {
-      color: deep-get($color, hover, blue);
-    }
-  }
-
-  &--active {
-    a {
-      color: deep-get($color, hover, blue);
+      color: deep-get($color, primary, blue);
     }
   }
 }

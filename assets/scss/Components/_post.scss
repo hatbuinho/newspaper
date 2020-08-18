@@ -84,7 +84,7 @@
         font-size: 21px;
         color: deep-get($color, text, primary-title);
         &:hover{
-        color: deep-get($color, hover, blue);
+        color: deep-get($color, primary, blue);
 
         }
       }

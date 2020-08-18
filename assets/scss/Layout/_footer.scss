@@ -25,6 +25,11 @@ footer {
       padding: 0 200px 0 100px;
       a {
         display: block;
+        color: deep-get($color, primary, blue);
+
+        &:hover{
+          color: darken($color: deep-get($color, primary, blue), $amount: 10%);
+        }
       }
     }
   }
@@ -38,7 +43,7 @@ footer {
       a {
         color: deep-get($color, text, footer);
         &:hover {
-          color: deep-get($color, hover, blue);
+          color: deep-get($color, primary, blue);
         }
       }
 

@@ -1,0 +1,49 @@
+.widget {
+  &--topic {
+    .widget {
+      &__header {
+        margin-bottom: 2rem;
+        border-bottom: 2px solid deep-get($color, bg, topic);
+        p {
+          background-color: deep-get($color, bg, topic);
+          color: deep-get($color, text, primary-header);
+        }
+      }
+
+      &__content {
+        padding-right: 1.5rem;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  } 
+}
+
+.topic {
+  margin: 0;
+  padding: 0;
+
+  a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: deep-get($color, text, topic);
+
+    &:hover {
+      text-decoration: none;
+      color: deep-get($color, primary, red);
+    }
+  }
+  &__name {
+    //
+  }
+  &__quantity {
+    //
+  }
+}

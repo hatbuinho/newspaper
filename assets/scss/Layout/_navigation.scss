@@ -6,7 +6,7 @@ nav {
   ul#main-menu {
     margin: 0;
     padding: 0;
-    border-right: 10px solid deep-get($color, hover, red);
+    border-right: 10px solid deep-get($color, primary, red);
 
     li {
       list-style-type: none;
